@@ -13,7 +13,7 @@
         </div>
         <div class="form-group">
             <label for="phoneNumber">Номер телефона</label>
-            <input type="text" class="form-control" id="phoneNumber" required name="phoneNumber" min="10">
+            <input type="text" class="form-control" id="phoneNumber" required name="phoneNumber" minlength="10">
         </div>
         <div class="form-group">
             <label for="password">Пароль</label>
