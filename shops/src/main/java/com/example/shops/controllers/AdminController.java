@@ -17,7 +17,7 @@ import java.util.Map;
 
 @Controller
 @RequiredArgsConstructor
-@PreAuthorize("hasAuthority('ROLE_ADMIN')")
+@PreAuthorize("hasAuthority('ROLE_ADMIN')") //change to USER to register on the admin page
 public class AdminController {
     private final UserService userService;
 
