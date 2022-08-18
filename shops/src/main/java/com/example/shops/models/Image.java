@@ -34,8 +34,6 @@ public class Image {
     @Column(name = "isPreviewImage")
     private boolean isPreviewImage;
     @Lob
-//    @Type(type = "org.hibernate.type.BinaryType")
-//    @Type(type = "org.hibernate.type.TextType")
     @Column(name = "bytes")
     private byte[] bytes;
     @ManyToOne(cascade = CascadeType.REFRESH, fetch = FetchType.EAGER)
